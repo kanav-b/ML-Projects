@@ -1,0 +1,32 @@
+# Note that your output will print directly to the console, not a text file. 
+# You do not need to match line breaks or spacing exactly. Just make sure your output clearly contains all required parts. 
+
+Sklearn direction of each PC (PC1, PC2):
+[[]]
+Sklearn explained variance for each PC (PC1, PC2):
+[]
+Sklearn fraction of variance explained by each PC (PC1, PC2):
+[]
+Sklearn data projection into 1-D (onto PC1):
+[]
+
+Covariance matrix:
+[[]]
+
+lambda_1 = _____
+v_1 = []
+lambda_2 = _____
+v_2 = []
+
+Question 1: *answer*
+Question 2: *answer*
+
+lambda_1 ratio: _____
+lambda_2 ratio: _____
+Question 3: *answer*
+
+Data projection into 1-D (onto v_1):
+[]
+Question 4: *answer*
+
+Question 5: *answer*

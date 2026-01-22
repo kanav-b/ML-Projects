@@ -1,0 +1,7 @@
+name: clustering_part1
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12.4
+  - numpy==2.1.1
+  - matplotlib==3.9.2

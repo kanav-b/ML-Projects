@@ -1,8 +1,8 @@
-# Assignment: Clustering
+# Clustering
 
 ## Description
 
-This assignment has **two parts**:
+This project has **two parts**:
 
 - **Part 1 (MNIST, from scratch):** Implement **K-Means** clustering *from scratch* (no `scikit-learn`, no `scipy`) on a subset of MNIST. Your script must accept the number of clusters as a command-line argument, print the clustering error, and save a file with images reconstructed from each cluster centroid.
 
@@ -16,17 +16,17 @@ The MNIST dataset is a widely used image dataset in the engineering and computer
 
 Each image in the MNIST dataset is a grayscale image of size **28x28 pixels**, resulting in **784** pixels when vectorized into a 1D array. The dataset contains images of handwritten digits from 0 to 9, encompassing 10 distinct classes. Due to its simplicity and the ease of visualizing digits, MNIST is widely used for testing and demonstrating image processing and machine learning techniques.
 
-Although MNIST consists of image data, the unsupervised learning techniques applied in this assignment, such as K-Means and hierarchical clustering, are general-purpose methods. They can be applied to any dataset, including biological datasets, making the skills learned here transferable to many domains.
+Although MNIST consists of image data, the unsupervised learning techniques applied in this project, such as K-Means and hierarchical clustering, are general-purpose methods. They can be applied to any dataset, including biological datasets, making the skills learned here transferable to many domains.
 
 ### Background on Dogs SNP Dataset
 
-In this assignment, the Dogs SNP Dataset provides an additional component where you will work with **genetic data** from dogs. The dataset consists of **784 SNP features** for each of 1355 dog samples, representing variations in their DNA at specific positions in the genome.
+In this project, the Dogs SNP Dataset provides an additional component where you will work with **genetic data** from dogs. The dataset consists of **784 SNP features** for each of 1355 dog samples, representing variations in their DNA at specific positions in the genome.
 
 The samples are grouped into **clades** (genetically related groups of breeds), provided in `dogs_clades.npy`, which serve as the true labels for clustering evaluation.
 
 ---
 
-### Assignment Part 1 (60 points)
+### Part 1 (60 points)
 
 1. Use environment `clustering_part1.yaml`.
 
@@ -39,7 +39,7 @@ The samples are grouped into **clades** (genetically related groups of breeds), 
    - **Initialization:**
      - **Random initialization:** pick `k` distinct points uniformly at random from the dataset as initial centroids. 
    - **Iterative updates:**  
-     - **Assignment step:** assign each point to the nearest centroid (distance metric: Euclidian).  
+     - **project step:** assign each point to the nearest centroid (distance metric: Euclidian).  
      - **Update step:** recompute each centroid.  
    - **Convergence:** stop when either:  
      - a maximum number of iterations is reached (e.g., 300), or  
@@ -82,11 +82,11 @@ The samples are grouped into **clades** (genetically related groups of breeds), 
 **Outputs**:
  - Centroid image files: `centroids_k10.png`, `centroids_k11.png` 
  - Error printed to stdout.
- - All images generated for this assignment should be consolidated into a final PDF for submission. 
+ - All images generated for this project should be consolidated into a final PDF for submission. 
 
 ---
 
-### Assignment Part 2 (40 Points)
+### Part 2 (40 Points)
 
 **Hierarchical Clustering on Dogs Dataset**
 
@@ -125,7 +125,7 @@ The samples are grouped into **clades** (genetically related groups of breeds), 
 
 - Hierarchical clustering plot (`Dogs_dendrogram_truncated.png`).
 - Error printed to stdout.
-- All images generated for this assignment should be consolidated into a final PDF for submission. 
+- All images generated for this project should be consolidated into a final PDF for submission. 
 
 ---
 

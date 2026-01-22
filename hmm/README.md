@@ -1,4 +1,4 @@
-# Assignment: Hidden Markov Models
+# Hidden Markov Models
 
 ## Program Requirements
 For all tiers, your program must run in the conda env provided: `hmm.yml`. This env only has Python 3.12.4 installed and numpy 2.1.1, so your program must run using only standard Python libraries as well as numpy.

@@ -1,10 +1,10 @@
-# Assignment: Population Genetics Simulation and Analysis
+# Population Genetics Simulation and Analysis
 
 ## Description
 
 You are a population geneticist studying the evolutionary history of a species that experienced a severe population bottleneck followed by recovery. You will use both forward-time (Wright-Fisher) and backward-time (coalescent) simulations to model this evolutionary scenario and analyze how demographic events affect genetic diversity.
 
-This assignment consists of two separate implementations:
+This project consists of two separate implementations:
 - **Part 1**: Forward simulation using Wright-Fisher model with selection
 - **Part 2**: Backward simulation using coalescent theory (neutral evolution)
 
@@ -16,17 +16,17 @@ Your study species experienced this demographic history:
 - **Recovery phase**: Population expanded back to N = 10,000
 - **Present day**: You have genetic samples from the recovered population
 
-## Assignment Tasks
+## Tasks
 
 ### Part 1: Wright-Fisher Simulation (50 points)
 
-**Script name**: `firstname_lastname_assignment7_part1.py`
+**Script name**: `firstname_lastname_monte_carlo_part1.py`
 
 Implement a Wright-Fisher simulator that models demographic changes with selection.
 
 **Command Line Interface:**
 ```bash
-python firstname_lastname_assignment7_part1.py wright_fisher_config.csv wright_fisher_demography.csv --seed 12345 --output forward_results.tsv
+python firstname_lastname_monte_carlo_part1.py wright_fisher_config.csv wright_fisher_demography.csv --seed 12345 --output forward_results.tsv
 ```
 
 **Configuration File (`wright_fisher_config.csv`):**
@@ -65,13 +65,13 @@ generation	population_size	num_mutations	nucleotide_diversity	theta_watterson	be
 
 ### Part 2: Coalescent Simulation (50 points)
 
-**Script name**: `firstname_lastname_assignment7_part2.py`
+**Script name**: `firstname_lastname_monte_carlo_part2.py`
 
 Implement a coalescent simulator that reconstructs the same demographic scenario without selection.
 
 **Command Line Interface:**
 ```bash
-python firstname_lastname_assignment7_part2.py coalescent_config.csv coalescent_demography.csv --seed 12345 --output coalescent_results.tsv
+python firstname_lastname_monte_carlo_part2.py coalescent_config.csv coalescent_demography.csv --seed 12345 --output coalescent_results.tsv
 ```
 
 **Configuration File (`coalescent_config.csv`):**

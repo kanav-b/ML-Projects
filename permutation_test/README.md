@@ -1,4 +1,4 @@
-# Assignment: Genomic Region Overlap Analysis and Permutation Testing
+# Genomic Region Overlap Analysis and Permutation Testing
 
 ## Description
 
@@ -19,7 +19,7 @@ You will be given the following files:
 
 2. **Genome index**: `genome.fa.fai` - Chromosome lengths in FASTA index format
 
-## Assignment Tasks
+##  Tasks
 
 ### Part 1: Overlap Calculation (40 points)
 
@@ -73,7 +73,7 @@ Perform statistical significance testing using permutation analysis to generate 
 1. **Implement permutation strategy**: Randomly redistribute Set A regions while preserving:
    - Number of regions
    - Size of each individual region
-   - Chromosome assignment (regions stay on their original chromosome)
+   - Chromosome project (regions stay on their original chromosome)
 
 2. **Generate null distribution**: Create 10,000 random permutations
 3. **Calculate global p-value**: Compare observed overlap to null distribution

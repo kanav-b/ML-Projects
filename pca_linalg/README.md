@@ -1,18 +1,16 @@
-# Assignment: Dimensionality Reduction/PCA
+# Dimensionality Reduction/PCA
 
 ## Description
 
-This assignment focuses on applying dimensionality reduction techniques, specifically Principal Component Analysis (PCA) and Non-Negative Matrix Factorization (NMF), to visualize, reconstruct, and identify patterns in high-dimensional data. It has **three parts**:
+This project focuses on applying dimensionality reduction techniques, specifically Principal Component Analysis (PCA) and Non-Negative Matrix Factorization (NMF), to visualize, reconstruct, and identify patterns in high-dimensional data. It has **three parts**:
 
 - **Part 1 (simple, 2-D dataset):** Work through a tutorial to develop a mathematical intuition of PCA. Your script will print calculated values and the answers to 5 questions to stdout and save one plot image. An example stdout output has been provided. 
 - **Part 2 (MNIST dataset)** Visualize the MNIST image dataset in two dimensions using PCA, reconstruct an image from the reduced data, and generate a new image from the reduced data. Your script will save one plot and three images.
 - **Part 3 (Dogs SNP dataset)** Use NMF to identify genetic ancestry patterns in dogs. Your script will save a `.tsv` file summarizing the average ancestry components for each dog clade. 
 
-You will turn in three separate python scripts for this assignment, one for each part. All scripts will be run in the same provided environment, `pca_linalg.yaml`.
+You will turn in three separate python scripts for this project, one for each part. All scripts will be run in the same provided environment, `pca_linalg.yaml`.
 
 ---
-
-### Assignment
 
 #### Part 1: PCA & Eigendecomposition (40 Points)
 
@@ -131,7 +129,7 @@ For Part 1, you will turn in one figure (`projection_1D.png`) and print values a
 **Outputs**:
  - 1D projection plot: `projection_1D.png`
  - Tutorial values and answers printed to stdout (see example).
- - All images generated for this assignment should be consolidated into a final PDF for submission. 
+ - All images generated for this project should be consolidated into a final PDF for submission. 
 
 ---
 
@@ -139,7 +137,7 @@ For Part 1, you will turn in one figure (`projection_1D.png`) and print values a
 
 1. **Load the MNIST subset**:
 
-   - Use the same MNIST subset provided in the previous assignment (`MNIST_X_subset.npy` and `MNIST_y_subset.npy`).
+   - Use the same MNIST subset provided in the previous project (`MNIST_X_subset.npy` and `MNIST_y_subset.npy`).
    - This subset consists of **6000 images** from the MNIST dataset, with **600 images for each digit** (0-9).
 
 2. **Perform PCA to reduce dimensions to 2**:
@@ -177,7 +175,7 @@ For Part 1, you will turn in one figure (`projection_1D.png`) and print values a
 **Outputs**:
  - PCA plot: `MNIST_PCA_2D.png`
  - 3 images: `MNIST_reconstructed_2PC.png`, `MNIST_original.png`, `MNIST_reconstructed_1_from_coord.png`
- - All images generated for this assignment should be consolidated into a final PDF for submission. 
+ - All images generated for this project should be consolidated into a final PDF for submission. 
 
 ---
 
@@ -208,7 +206,7 @@ The number of components $n$ is chosen by you, and it controls the "resolution" 
 
 1. **Load the Dogs dataset**:
 
-   - Use the same Dogs dataset (`dogs_X.npy`, `dogs_clades.npy`) as prior assignments. It contains **1355 dogs × 784 SNPs** and **30 clades**.
+   - Use the same Dogs dataset (`dogs_X.npy`, `dogs_clades.npy`) as prior projects. It contains **1355 dogs × 784 SNPs** and **30 clades**.
 
 2. **Factor the data into $W$ and $H$ with 5 ancestry components**:
 

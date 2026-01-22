@@ -1,0 +1,5 @@
+parameter,value
+mutation_rate,1e-8
+sequence_length,1000
+sample_size,20
+replicates,100

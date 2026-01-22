@@ -1,0 +1,10 @@
+name: monte_carlo
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12.4
+  - pip==24.2
+  - pip:
+      - numpy
+      - networkx
+      - pandas

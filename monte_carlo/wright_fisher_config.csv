@@ -1,0 +1,6 @@
+parameter,value
+mutation_rate,1e-8
+sequence_length,1000
+total_generations,1500
+selection_coefficient,0.1
+beneficial_mutation_time,1025

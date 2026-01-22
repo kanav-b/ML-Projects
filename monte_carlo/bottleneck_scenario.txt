@@ -1,0 +1,14 @@
+# Population bottleneck scenario for Assignment 7
+# Simulation parameters
+mutation_rate,1e-8
+sequence_length,1000
+sample_size,20
+replicates,100
+selection_coefficient,0.1
+beneficial_mutation_time,1025
+
+# Demographic history (generation, population_size)
+generation,population_size
+0,10000
+1000,100
+1050,10000
